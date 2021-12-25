@@ -216,7 +216,7 @@ nav li:hover {
 
 footer {
   background-color: #fff;
-  margin-top: 30vh;
+  margin-top: 35vh;
   padding: 1rem;
   margin-left: 0;
 }
@@ -281,6 +281,7 @@ footer p {
 .background-full-size {
   background-image: url("./assets/hero.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   width: 100vw;
   height: 100vh;
   top: 0;
@@ -397,13 +398,11 @@ footer {
   color: #fff;
 }
 
-
 .h1new {
-  color : white;
+  color: white;
   padding-left: 23%;
   padding-right: 23%;
   text-align: justify;
-   
 }
 .justify {
   text-align: justify;
@@ -419,6 +418,5 @@ footer {
   object-fit: cover;
   object-position: center;
   border-radius: 1rem;
-  border-style:solid;
-
+  border-style: solid;
 }
